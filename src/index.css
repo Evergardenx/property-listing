@@ -1,0 +1,13 @@
+:root {
+  font-family: "Outfit", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #121826;
+  color: #F2F9FE;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  height: 100vh;
+}

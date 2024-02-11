@@ -1,0 +1,38 @@
+.header-section {
+    height: 620px;
+    position: relative;
+    background-image: url("../../../public/images/hero-image.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.titles-header-section {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    color: #121826;
+    padding-top: 180px;
+    padding-left: 64px;
+    gap: 8px;
+}
+.title-header-section {
+    margin: 0;
+    font-size: 64px;
+    font-weight: 600;
+}
+.subtitle-header-section {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 641px) {
+    .titles-header-section {
+        padding-left: 112px;
+    }
+}
+@media screen and (min-width: 1025px) {
+    .titles-header-section {
+        padding-left: 140px;
+    }
+}

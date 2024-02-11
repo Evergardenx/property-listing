@@ -1,0 +1,93 @@
+.image-container {
+    height: 200px;
+}
+.div-superhost{
+    display: flex;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+    background-color: #20293A;
+    border-radius: 9px;
+    align-items: center;
+    padding: 9px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    gap: 2px;
+}
+.name-superhost {
+    font-size: 10px;
+}
+.img-superhost {
+    width: 11px;
+}
+.house-card {
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+}
+.img-house-card{
+    border-radius: 10px 10px 0 0;
+}
+.info-house-card {
+    padding: 20px;
+}
+.title-house-card {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.description-house-card {
+    margin: 0;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #97A3B6;
+    width: 290px;
+}
+.bedroom-guest-house-card{
+    margin-top: 16px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+.bedroom-house-card{
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+.guest-house-card {
+    display: flex;
+    align-items: center;
+}
+.price-stars-house-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid #4A5567;
+}
+.stars-house-card {
+    display: flex;
+    align-items: center;
+}
+.info-house-card{
+    border-radius: 0px 0px 10px 10px;
+    border-left: 1px solid #4A5567;
+    border-right: 1px solid #4A5567;
+    border-bottom: 1px solid #4A5567;
+}
+.capacity-house-card {
+    color: #97A3B6;
+    font-size: 12px;
+}
+.guest-house-card {
+    color: #97A3B6;
+    font-size: 12px;
+}
+
+.rating-house-card {
+    font-size: 12px;
+}
+.night-house-card {
+    font-size: 12px;
+    color: #97A3B6
+}

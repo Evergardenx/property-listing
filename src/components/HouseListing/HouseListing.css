@@ -1,0 +1,24 @@
+.main-house-listing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.house-listing{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 1136px;
+    margin-bottom: 200px;
+    margin-top: 100px;
+}
+.title-house-listing {
+    margin: 0;
+    font-weight: 500;
+}
+.list-houses {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    column-gap: 32px;
+    row-gap: 72px;
+}
